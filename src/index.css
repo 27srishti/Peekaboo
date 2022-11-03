@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  background-color: black;
+}
+.main {
+  margin: 10px;
+  background-color: blueviolet;
+  background-image: linear-gradient(to right, #ff4e50, #f9d423);
+  border: 1px;
+  width: 500px;
+  height: 620px;
+  border-style: solid;
+  color: black;
+  border-radius: 20px;
+}
+.sub {
+  background-color: black;
+  margin: 30%;
+  border: 1px;
+  width: 200px;
+  border-style: solid;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.peekMain {
+  border: 3px;
+  width: 600px;
+  height: 500px;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 5px 10px 100px 2px;
+}
+
+.switch {
+  margin: 30px;
+
+ width: 130px;
+  height: 35px;
+  
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 100px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.switch[data-isOn="true"] {
+  justify-content: flex-end;
+}
+
+.handle {
+  width: 50px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100px;
+}
